@@ -1,2 +1,3 @@
-# 7-days-of-code
-Projeto 7 Days of Code JS Alura &amp; Rafaella Ballerini
+# 7 Days of Code
+
+Projeto 7 Days of Code JS Alura & Rafaella Ballerini
