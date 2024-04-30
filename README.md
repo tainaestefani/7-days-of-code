@@ -4,4 +4,4 @@
       <img align="right" alt="7-days-of-code.png" height="200px" src="7 Days of Code.png"></summary>
   </div>
 <p align="left">Projeto com sete desafios diários de JavaScript <br>para colocar em prática meus conhecimentos!</p>
-<p align="left"><br><br>› Por Alura & Rafaella Ballerini</p>
+<p align="left"><br><br><br><br>› Por Alura & Rafaella Ballerini</p>
