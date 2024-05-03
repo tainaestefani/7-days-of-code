@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 3</title>
+</head>
+<body>
+    <script>
+        let msg = 'Olá dev! Tudo bem? Te convido a responder algumas perguntas...';
+        alert(msg);
+
+        const area = prompt('Em qual área você deseja seguir? [1] Back-End - [2] Front-End');
+
+        if (area == 1) {
+            languages = prompt('Você deseja aprender C# ou Java?');
+        } else if (area == 2) {
+            languages = prompt('Você deseja aprender React ou Vue?');
+        } else {
+            console.log('Desculpe, não entendi.');
+        }
+
+        const escolhaOuFullStack = prompt('Você deseja continuar se especializando na área escolhida ou deseja se tornar um Full-Stack? [1] Área Escolhida - [2] Full-Stack');
+
+        if (escolhaOuFullStack == 1) {
+            alert('Ótimo! Você deseja continuar se especializando na área escolhida anteriormente.');
+        } else if (escolhaOuFullStack == 2) {
+            alert('Legal! Para se tornar um Full-Stack, você precisa se especializar em tecnologias de Back e Front, tendo como exemplo C# e Java, React e Vue.');
+        }
+
+        let msg1 = prompt('Você gostaria de aprender mais tecnologias? Digite "OK" se afirmativo.');
+
+        while (msg1 == "OK" || msg1 == "Ok" || msg1 == "ok") {
+            const novaTecnologia = prompt('Qual?');
+            alert('Uuuu, ' + novaTecnologia + ' é bem interessante!');
+            msg1 = prompt('Você gostaria de aprender mais tecnologias? Digite "OK" se afirmativo.');
+        }
+    </script>
+</body>
+</html>
