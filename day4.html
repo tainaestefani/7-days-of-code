@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 4</title>
+<body>
+    <script>
+       const num = Math.floor(Math. random() * 11);
+       let tentativas = 3;
+
+       function adivinha() {
+        alert('Jogo de adivinhação!');
+        
+        while (tentativas > 0) {
+            const chute = parseInt(prompt('Digite um número entre 0 e 10'));
+
+            if (isNaN(chute) || chute < 0 || chute > 10) {
+                alert('Por favor, digite um número entre 0 e 10.');
+                continue;
+            }
+
+            if (verifica(chute)) {
+            return;
+            }
+        }
+       }
+       
+       function verifica(chute) {
+        if (chute == num) {
+            alert('Parabéns, você acertou o número secreto!');
+            return true;
+        } else {
+            alert('Tente novamente.');
+            tentativas --;
+            return false;
+        } 
+       }
+
+       adivinha();
+    </script>
+</body>
+</html>
