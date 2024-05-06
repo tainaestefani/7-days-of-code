@@ -9,11 +9,12 @@
 
 ````
 Faça um clone deste repositório.
-Utilize a ferramenta Live Server e
-clique em "Go Live" para executar.
+Utilize a ferramenta Live Server e clique
+em "Go Live" para executar.
 ````
-
-<details>
-  <summary></summary>
+<div>
+  <details>
+    <summary></summary>
     <p align="left">› Por <a href="https://github.com/alura-cursos">Alura</a> & <a href="https://github.com/rafaballerini">Rafaella Ballerini</a></p>
-</details>
+  </details>
+</div>
