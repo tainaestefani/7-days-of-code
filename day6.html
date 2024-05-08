@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 6</title>
+</head>
+<body>
+    <script>
+        let frutas = [];
+        let laticinios = [];
+        let doces = [];
+        let congelados = [];
+        let verduras = [];
+        let legumes = [];
+        let add = "sim";
+        
+        while (add != "não") {
+        if (frutas.length === 0 && laticinios.length === 0 && doces.length === 0 && congelados.length === 0) {
+            add = prompt("Você deseja adicionar uma comida na lista de compras? Digite 'sim' ou 'não'.");
+        } else {
+            add = prompt("Você deseja adicionar uma comida na lista de compras? Digite 'sim', 'não' ou 'remover'.");
+        }
+	
+        while (add != "sim" && add != "não" && add != "remover") {
+	        alert('Desculpe, não entendi.');
+            add = prompt("Você deseja adicionar uma comida na lista de compras? Responda 'sim' ou 'não'.");
+            }
+	
+        if (add === "não") {
+	        break;
+        }
+	
+        if (add === "sim") {
+            comida = prompt("Qual comida você deseja inserir?");
+            categoria = prompt("Em qual categoria essa comida se encaixa: 'frutas', 'laticínios', 'doces', 'congelados', 'verduras' ou 'legumes'?");
+            if (categoria === 'frutas') {
+                frutas.push(comida);
+            } else if (categoria === 'laticínios') {
+                laticinios.push(comida);
+            } else if (categoria === 'doces') {
+                doces.push(comida);
+            } else if (categoria === 'congelados') {
+                congelados.push(comida);
+            } else if (categoria === 'verduras') {
+                doces.push(comida);
+            } else if (categoria === 'legumes') {
+                congelados.push(comida);
+            } else {
+                alert('Essa categoria não foi pré-definida.')
+            }
+        } else if (add === "remover") {
+	        if (frutas.length === 0 && laticinios.length === 0 && doces.length === 0 && congelados.length === 0 && verduras.length === 0 && legumes.length === 0) {
+                alert('A lista está vazia!');
+	        } else {
+		        remover = prompt('Lista de compras: \nFrutas: ' + frutas + '\nLaticínios: ' + laticinios + '\nDoces: ' + doces + '\nCongelados: ' + congelados + '\nVerduras: ' + verduras + '\nLegumes: ' + legumes + 'Qual produto você deseja remover?');
+		        if (frutas.indexOf(remover) != -1) {
+                     frutas.splice(frutas.indexOf(remover), 1);
+		             alert('O item ' + remover + ' foi removido com sucesso!')
+		        } else if (laticinios.indexOf(remover) != -1) {
+			         laticinios.splice(laticinios.indexOf(remover), 1);
+			         alert('O item ' + remover + ' foi removido com sucesso!')
+		        } else if (doces.indexOf(remover) != -1) {
+			         doces.splice(doces.indexOf(remover), 1);
+			         alert('O item ' + remover + ' foi removido com sucesso!')
+		        } else if (congelados.indexOf(remover) != -1) {
+			         congelados.splice(congelados.indexOf(remover), 1);
+			         alert('O item ' + remover + ' foi removido com sucesso!')
+		        } else if (verduras.indexOf(remover) != -1) {
+			         verduras.splice(verduras.indexOf(remover), 1);
+			         alert('O item ' + remover + ' foi removido com sucesso!')
+		        } else if (legumes.indexOf(remover) != -1) {
+			         legumes.splice(legumes.indexOf(remover), 1);
+			         alert('O item ' + remover + ' foi removido com sucesso!')
+                } else {
+			    alert('Não foi possível encontrar o item dentro da lista.')
+                }
+	        }
+       }
+    }
+
+    alert('Lista de compras: \nFrutas: ' + frutas + '\nLaticínios: ' + laticinios + '\nDoces: ' + doces + ' \nCongelados: ' + congelados);
+    </script>
+</body>
+</html>
