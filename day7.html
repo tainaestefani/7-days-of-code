@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 7</title>
+</head>
+<body>
+    <script>
+        function soma(a, b) {
+            return a + b;
+        }
+
+        function subtracao(a, b) {
+            return a - b;
+        }
+
+        function multiplicacao(a, b) {
+            return a * b;
+        }
+
+        function divisao(a, b) {
+            if (b === 0) {
+                return "Não é possível dividir por zero.";
+            } else {
+                return a / b;
+            }
+        }
+
+        function calculadora() {
+            while (true) {
+                var escolha = prompt("Escolha a operação: soma, subtração, multiplicação, divisão ou sair.");
+                
+                switch (escolha.toLowerCase()) {
+                    case "soma":
+                        var num1 = parseFloat(prompt("Digite o primeiro número:"));
+                        var num2 = parseFloat(prompt("Digite o segundo número:"));
+                        alert("Resultado: " + soma(num1, num2));
+                        break;
+                    case "subtração":
+                        var num1 = parseFloat(prompt("Digite o primeiro número:"));
+                        var num2 = parseFloat(prompt("Digite o segundo número:"));
+                        alert("Resultado: " + subtracao(num1, num2));
+                        break;
+                    case "multiplicação":
+                        var num1 = parseFloat(prompt("Digite o primeiro número:"));
+                        var num2 = parseFloat(prompt("Digite o segundo número:"));
+                        alert("Resultado: " + multiplicacao(num1, num2));
+                        break;
+                    case "divisão":
+                        var num1 = parseFloat(prompt("Digite o primeiro número:"));
+                        var num2 = parseFloat(prompt("Digite o segundo número:"));
+                        alert("Resultado: " + divisao(num1, num2));
+                        break;
+                    case "sair":
+                        alert("Até a próxima!");
+                        return;
+                    default:
+                        alert("Desculpe, não entendi.");
+                }
+            }
+        }
+
+calculadora();
+    </script>
+</body>
+</html>
