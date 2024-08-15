@@ -11,6 +11,7 @@
 Faça um clone deste repositório.
 Utilize a ferramenta Live Server e clique em "Go Live" para executar.
 ````
+
 <div>
   <details>
     <summary></summary>
