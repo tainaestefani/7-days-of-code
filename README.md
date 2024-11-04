@@ -1,20 +1,21 @@
-<div id="user-content-toc">
-  <ul align="left">
-      <summary><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=ffffff&left=true&Left=true&random=false&width=524&lines=7+Days+of+Code+in+JavaScript!" alt="Typing SVG">
-      <img align="right" alt="7-days-of-code.png" height="220px" src="7-days-of-code.png"></summary>
-  </div>
-<p align="left">Projeto com sete desafios diários de JavaScript <br>para colocar em prática meus conhecimentos.</p>
+# 7 Days of Code in JavaScript! 🚀
+<p>Este projeto apresenta sete desafios diários de JavaScript, projetados para colocar em prática e aprimorar meus conhecimentos na linguagem. Cada dia traz um novo desafio, permitindo explorar e aprender de forma divertida!</p>
 
-<h3 align="left">🔧 Como Executar o Projeto</h3>
+## 🔧 Como Executar o Projeto
 
-````
-Faça um clone deste repositório.
-Utilize a ferramenta Live Server e clique em "Go Live" para executar.
-````
+* Clone este repositório com o comando:
+```
+git clone <https://github.com/tainaestefani/7-days-of-code.git>
+```
+* Abra em uma IDE de sua escolha e clique em "Run" / "Execute" / "Go Live" para executar.
 
 <div>
+  <br>
   <details>
-    <summary></summary>
-    <p align="left">› Por <a href="https://github.com/alura-cursos">Alura</a> & <a href="https://github.com/rafaballerini">Rafaella Ballerini</a></p>
+  <summary>✨ Desenvolvido por:</summary>
+  <p>
+    <a href="https://github.com/alura-cursos"> Alura</a> & 
+    <a href="https://github.com/rafaballerini">Rafaella Ballerini</a>. ✨
+  </p>
   </details>
 </div>
