@@ -2,7 +2,6 @@
 <p>Este projeto apresenta sete desafios diários de JavaScript, projetados para colocar em prática e aprimorar meus conhecimentos na linguagem. Cada dia traz um novo desafio, permitindo explorar e aprender de forma divertida!</p>
 
 ## 🔧 Como Executar o Projeto
-
 * Clone este repositório com o comando:
 ```
 git clone <https://github.com/tainaestefani/7-days-of-code.git>
@@ -21,5 +20,4 @@ git clone <https://github.com/tainaestefani/7-days-of-code.git>
 </div>
 
 ## 🧑‍💻 Autor
-
 [<img alt="Profile Pic" src="https://avatars.githubusercontent.com/u/154456749?v=4" width="115" style="border-radius:50%"><br><sub>Tainá Estefani Martins</sub>](https://github.com/tainaestefani)
