@@ -19,3 +19,7 @@ git clone <https://github.com/tainaestefani/7-days-of-code.git>
   </p>
   </details>
 </div>
+
+## 🧑‍💻 Autor
+
+[<img alt="Profile Pic" src="https://avatars.githubusercontent.com/u/154456749?v=4" width="115" style="border-radius:50%"><br><sub>Tainá Estefani Martins</sub>](https://github.com/tainaestefani)
